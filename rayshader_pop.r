@@ -31,6 +31,10 @@ ggShp = ggplot(data = shp) +
   ggtitle("Población del Ecuador") +
   theme_bw()
 
+print(ggShp)
+
+### Transformar a 3D
+
 plot_gg(ggShp,multicore=TRUE,width=5,height=5,scale=300,windowsize=c(1280,720),
         zoom = 0.65, phi = 50)
 render_snapshot()
