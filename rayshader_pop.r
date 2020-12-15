@@ -1,4 +1,4 @@
-Instalar librerías
+### Instalar librerías
 #install.packages("viridis")
 #install.packages("viridisLite")
 #install.packages("tidyverse")
@@ -7,7 +7,7 @@ Instalar librerías
 #install.packages("magick")
 #install.packages("av")
 
-Activar librerías
+### Activar librerías
 library(tidyverse)
 library(sf)
 library(viridis)
