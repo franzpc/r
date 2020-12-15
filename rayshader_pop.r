@@ -8,10 +8,10 @@
 #install.packages("av")
 
 ### Activar librerías
-library(tidyverse)
-library(sf)
 library(viridis)
 library(viridisLite)
+library(tidyverse)
+library(sf)
 library(rayshader)
 library(magick)
 library(av)
